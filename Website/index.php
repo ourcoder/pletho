@@ -82,7 +82,7 @@
     <script type="text/javascript" src="/parse/db.js"></script>
     <script type="text/javascript" src="/js/login.js"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/in.js">
-        api_key: 77hsod6r7igaak
+        api_key: 
         authorize: true
     </script>
 
