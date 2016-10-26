@@ -1,0 +1,398 @@
+<style>
+	.desktop{
+		display:inline-block;
+		}
+	.mobile{
+		display:none;
+		}
+@media screen and (max-width: 700px) {
+	.desktop{
+		display:none;
+		}
+	.mobile{
+		display:inline-block;
+		}
+}
+</style>
+
+<div id="helpFAQ">
+<br/><b style="font-size:22px;padding-left:7px;text-decoration:underline">Frequently Asked Questions</b><br/><br/>
+<div style="font-size:14px;text-align:left;">
+<em>Q. </em> How do I use the advertiser page?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Advertiser" onclick="toggleHelpPage('Advertiser');">Click here to go to the advertiser page tutorial.</a><br/><br/>
+<em>Q. </em> How do I use the advanced search?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Advertiser:AdvancedSearch" onclick="toggleHelpPage('Advertiser');">You can find our more about the advanced search panel by clicking here.</a><br/><br/>
+<em>Q. </em> How do I interact with my search results?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Advertiser:SearchResults" onclick="toggleHelpPage('Advertiser');">More information about the search results page can be found here.</a><br/><br/>
+<em>Q. </em> How do I purchase an advert?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Advertiser:Buying" onclick="toggleHelpPage('Advertiser');">To find out more about buying adverts click here.</a><br/><br/>
+<em>Q. </em> What is an advert url?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Advertiser:Vimeo" onclick="toggleHelpPage('Advertiser');">Click here if you would like to create a video file advert url</a>, <a href="#Help:Advertiser:Soundcloud" style="text-decoration:underline" onclick="toggleHelpPage('Advertiser');">or here if you would like to create a sound file advert url</a>, <a style="text-decoration:underline" href="#Help:Advertiser:Imgur" onclick="toggleHelpPage('Advertiser');">or here if you would like to create an image file advert url</a>.<br/><br/>
+<em>Q. </em> What do I do with my pending campaign?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Campaigns:Pending" onclick="toggleHelpPage('Campaigns');">For more information about pending campaigns click here.</a><br/><br/>
+<em>Q. </em> Why is my campaign queued?<br/>
+<em>A. </em><a  style="text-decoration:underline" href="#Help:Campaigns:Queued" onclick="toggleHelpPage('Campaigns');">Click here for a guide on queued campaigns.</a><br/><br/>
+<em>Q. </em> My campaign is now live, what does that mean?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Campaigns:Live" onclick="toggleHelpPage('Campaigns');">More details about live campaigns can be found here.</a><br/><br/>
+<em>Q. </em> How do I update my disputed campaign?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Campaigns:Disputes" onclick="toggleHelpPage('Campaigns');">To better understand disputed campaigns click here.</a><br/><br/>
+<em>Q. </em> What can I do once my campaign is completed?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Campaigns:Completed" onclick="toggleHelpPage('Campaigns');">Click here for more information about completed campaigns.</a><br/><br/>
+<em>Q. </em> How can I register as a Publisher?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Publisher:Registering" onclick="toggleHelpPage('Publisher');">For more details about registering as a publisher click here.</a><br/><br/>
+<em>Q. </em> How do I sell my advert on Pletho?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Publisher:AddingAdverts" onclick="toggleHelpPage('Publisher');">You can find more details about selling your adverts here.</a><br/><br/>
+<em>Q. </em> Can I modify an advert that is on Pletho?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Publisher:ModifyingAdverts" onclick="toggleHelpPage('Publisher');">To better understand how to modify adverts click here.</a><br/><br/>
+<em>Q. </em> How do I download an Advertisers advert?<br/>
+<em>A. </em><a style="text-decoration:underline" href="#Help:Publisher:AiringAdverts" onclick="toggleHelpPage('Publisher');">Click here for guides on how to download advertisers adverts.</a><br/><br/>
+</div>
+</div>
+                
+                <div id="helpADV" style="display:none;text-align:center;">
+                	<br/><b style="font-size:22px;padding-left:7px;text-decoration:underline">Advertiser Help</b><i style="text-decoration:none;font-size:18px;"> - (<i style="text-decoration:underline;cursor:pointer;" onclick="printThisHelp(this.parentElement.parentElement.innerHTML)">Print</i>)</i><br/><div style="font-size:16px;"><br/>Topics: <i style="text-decoration:underline"><a href="#Help:Advertiser:AdvancedSearch">Advanced Search</a></i>, <i style="text-decoration:underline"><a href="#Help:Advertiser:SearchResults">Search Results</a></i>, <i style="text-decoration:underline"><a href="#Help:Advertiser:Buying">Buying</a></i>, <i style="text-decoration:underline"><a href="#Help:Advertiser:Vimeo">Video Advert Url</a></i>, <i style="text-decoration:underline"><a href="#Help:Advertiser:Soundcloud">Audio Advert Url</a></i>, <i style="text-decoration:underline"><a href="#Help:Advertiser:Imgur">Image Advert Url</a></i>.</div><br/>
+                    <div style="text-align:left;padding-left:3px;">
+            <hr/>
+<div style="font-size:18px;text-align:center;"><i>The Advertiser Page</i>
+<hr/>
+<img class="desktop" src="/images/help/advertiserhelp1.jpg" style="max-width:730px;max-height:323px;width:100%;height:auto;" />
+<img class="mobile" src="/images/mobile/advertiserhelp1m.jpg" style="max-width:320px;max-height:142px;width:100%;height:auto;" />
+</div><br/>
+<b style="color:silver;">1.</b>	As a new advertiser on the Pletho platform it is best to start on the Advertiser page. This is the advertiser homepage, where you can search for advert listings posted by Pletho’s publishers. <br/><br/>
+
+<b style="color:black;">2.</b>	At the top of the page (below the menu) you have a search bar; in this bar you can type any search text or keyword that you think would relate to the advert you are looking for; for example: “#TV #Manchester”.<br/><br/>
+
+<b style="color:orange;">3.</b>	To submit your search, just click the button labelled ‘Search’ on the right (displayed as an arrow on smartphones) or press enter on your keyboard. <br/><br/>
+
+<b style="color:green;">4.</b>	The ‘Show All’ button displays all adverts currently available to purchase on the Pletho Marketplace.<br/><br/>
+
+<b style="color:gold;">5.</b>	The button marked ‘Advanced’ will display a new panel where Advertisers can search for campaigns that fit a very specific criteria.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>The Advanced Search Panel</i><a name="Help:Advertiser:AdvancedSearch" id="Help:Advertiser:AdvancedSearch"></a>
+<hr/>
+<img class="desktop" src="/images/help/advertiserhelp2.jpg" style="max-width:637px;max-height:223px;width:100%;height:auto;" />
+<img class="mobile" src="/images/mobile/advertiserhelp2m.jpg" style="max-width:350px;max-height:123px;width:100%;height:auto;" />
+</div><br/>
+<b style="color:gold;">1.</b>	The first advanced search setting available is the locality. Here you can choose to restrict the results to show only Local or National adverts.<br/><br/>
+
+<b style="color:silver;">2.</b>	The Budget bar allows you to set minimum and maximum budget value, restricting the resulting adverts to only those that fall between these values.<br/><br/>
+
+<b style="color:orange;">3.</b>	The Lead bar also features a minimum and maximum value choice. This will restrict returning results to those that fall within the specific hours chosen.<br/><br/>
+
+<b style="color:green;">4.</b>	There are four drop down lists that appear in the middle of the advanced search panel. These are; Country, City, Campaign Length and Publisher. These drop down lists feature only the countries, cities, campaign lengths and publishers that have adverts for sale right now. Choosing an option in any of these drop down list will restrict the results to that chosen option.<br/><br/>
+
+<b style="color:darkgrey;">5.</b>	The last option on the advanced search panel is the advert types; Billboard, Bus, Cinema, Magazine, Newspaper, Radio, TV and Taxi. These are also populated from adverts that are currently for sale on the Pletho platform. You can choose one or many options here to restrict your search results to only those that are of this advert type.<br/><br/>
+
+<b style="color:red;">6.</b>	The advanced search panel allows users to save advanced search criteria to load back at a later date. First choose the search criteria you would like to remember and then hit ‘Save’. If you then ‘Reset’ the advanced search panel and hit ‘Load’, Pletho will automatically load the previously saved advanced search options you provided earlier. <br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Search Results</i><a name="Help:Advertiser:SearchResults" id="Help:Advertiser:SearchResults"></a>
+<hr/>
+<img class="desktop" src="/images/help/advertiserhelp3.jpg" style="max-width:675px;max-height:569px;width:100%;height:auto;" />
+<img class="mobile" src="/images/mobile/advertiserhelp3m.jpg" style="max-width:350px;max-height:295px;width:100%;height:auto;" />
+</div><br/>
+<b style="color:black;">1.</b>	From our search; “#Manchester #TV” we have returned three matching results. The result marked as ‘1’ in the image is in a detailed view, this was achieved by clicking on the advert once.<br/><br/>
+
+<b style="color:darkgrey;">2.</b>	The advert marked as ‘2’ is in minimal view. All adverts return in this view mode by default, you will only see detailed information when you click on an advert.<br/><br/>
+
+<b style="color:darkgreen;">3.</b>	Advert ‘3’ has been clicked twice. This has put the advert in the highlighted state. When an advert is in this state the two buttons; ‘Buy’ and ‘Share’ become active. If this advert is clicked again it will return back to its minimal view (as seen in ‘2’). <br/><br/>
+
+<b style="color:lightgreen;">4.</b>	As we can see from this example, three of a maximum of twelve adverts are being displayed. Nine adverts did not match our search criteria and therefor were not displayed in the results.<br/><br/>
+
+<b style="color:orange;">5.</b>	When an advert has been highlighted (advert ‘3’), the ‘Share’ button becomes active. This button allows you to share information that pertains to this specific advert. Several sharing options are available, including popular social networks and email; allowing you to share adverts directly with colleagues, friends or family in just a couple of clicks.<br/><br/>
+
+<b style="color:red;">6.</b>	The ‘Buy’ button works the same as the ‘Share’ button; in that it only becomes active when an advert has been highlighted. Only one advert can be highlighted at any one time.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Buying / Purchasing / Ordering</i><a name="Help:Advertiser:Buying" id="Help:Advertiser:Buying"></a>
+<hr/>
+<img src="/images/help/advertiserhelp4.jpg" style="max-width:297px;max-height:213px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">1.</b>	After you have clicked the ‘Buy’ button you will be greeted with a small panel to input specific details about your campaign. The first is the ‘Preferred Date’ that you would like the advert to air. To choose a date simply tap where it says ‘Tap to pick’ and a calendar will appear.
+Please note: at the top of the page information regarding the earliest date and time the campaign can be ordered for will appear. Ordering before this date is not be possible.<br/><br/>
+
+<b style="color:lightgreen;">2.</b>	The ‘Preferred Time’ option will only appear for specific advert types that require it. To choose a time simply click the text “Tap to choose” and then pick the time that best fits your campaign.<br/><br/>
+
+<b style="color:blue;">3.</b>	Please enter the amount of ‘Flexibility’ you would like your campaign to have. This will help the Publisher when they set an exact date and time that your advert will air. You can set the ‘Flexibility’ as minutes, hours, days, weeks, none or open (if you are unsure).<br/><br/>
+
+<b style="color:orange;">4.</b>	The ‘Advert Url’ field requires an internet address that points to the advert you want the Publisher to display. <br/>
+<i>For example;</i><br/><br/>
+A TV advert would be a video, so would be hosted on Vimeo and have an internet address similar to: <a style="text-decoration:underline;word-break: normal;" href="http://vimeo.com/14504562" target="_blank">http://vimeo.com/14504562</a><br/><br/>
+A Radio advert would be sound, so would be hosted on Soundcloud and have an internet address similar to: <a style="text-decoration:underline;word-break: normal;" href="https://soundcloud.com/slamminvinyl/westfest-radio-advert-2012-for" target="_blank">http://soundcloud.com/s/radio</a><br/><br/>
+A Magazine advert would be an image, so would be hosted on Imgur and have an internet address similar to: <a style="text-decoration:underline;word-break: normal;" href="http://i.imgur.com/tiC9ufb.jpg" target="_blank">http://i.imgur.com/tiC9ufb.jpg</a><br/><br/>
+Using Imgur you can even share an album of images with the Publisher.<br/><br/>
+If you require more help getting your advert online, please scroll down to see the in-depth tutorials.<br/><br/>
+
+<b style="color:darkgreen;">5.</b>	The default currency that loads with the advert is the one that the Publisher will require payment in. If you wish to see what the cost is in your own currency you can do so by using the currency drop down list. Please note that your bank may charge transaction and conversion fees when purchasing in foreign currencies.<br/><br/>
+
+<b style="color:red;">6.</b>	Once you have entered all the details into the fields provided you can now click the ‘Buy’ text to forward your order on to the Publisher for approval. At any time during this process you can click the ‘X’ (cross) icon in the top right corner to exit and close the purchase window.<br/><br/>
+<br/>
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Vimeo Tutorial</b><a name="Help:Advertiser:Vimeo" id="Help:Advertiser:Vimeo"></a>
+<hr/></div>
+<div style="font-size:18px;text-align:center;"><i>Sign Up To Vimeo</i><hr/><img src="/images/vimeo/vimeo1.jpg" style="max-width:330px;max-height:327px;width:100%;height:auto;" />
+</div><br />
+    <b style="color:black;">1.</b>	The first step to uploading your video on to Vimeo requires you to sign up with the platform at: <a style="text-decoration:underline" href="https://vimeo.com/" target="_blank">https://vimeo.com/</a><br/><br/>
+    <b style="color:black;">2.</b>	Now that you have an account with Vimeo it is time to choose a package. There are three to choose from: Basic (Free), Plus and Pro. You can choose basic for now and upgrade at any point in the future if you need to.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Choose Your Video</i><hr/><img src="/images/vimeo/vimeo2.jpg" style="max-width:346px;max-height:111px;width:100%;height:auto;" />
+  <img src="/images/vimeo/vimeo3.jpg" style="max-width:346px;max-height:111px;width:100%;height:auto;" /></div><br/>
+
+<b style="color:black;">3.</b>	Now it is time to upload your video, tap the button named "Upload a video" and then proceed by clicking the button called "Choose a Video to Upload". Once you have chosen the video you would like the Publisher to use, click the "Upload Selected Videos" button. Please note: depending on the video size and your internet speed, this could take sometime. <br/><div style="font-size:18px;text-align:center;"><img src="/images/vimeo/vimeo4.jpg" style="max-width:345px;max-height:111px;width:100%;height:auto;" /></div><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Uploading and Settings</i><hr/><img class="desktop" src="/images/vimeo/vimeo5.jpg" style="max-width:659px;max-height:236px;width:100%;height:auto;" /><img class="mobile" src="/images/mobile/vimeo5m.jpg" style="max-width:350px;max-height:125px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">4.</b>	While your video is uploading you can add some additional information to your new Vimeo video, for example; a title, description, tags and a language. On the privacy page you have detailed options about how you wish your video to be shared. To make things easy for Publishers it is best to ensure "Anyone – Allow anyone to see this video" and "Download the video – Allow anyone to download this video" options are selected. Once your advert has been aired you can always come back and change these privacy settings.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Save Changes</i><hr/><img src="/images/vimeo/vimeo6.jpg" style="max-width:175px;max-height:61px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">5.</b>	If you have modified the video listing information and settings click "Save Changes" so that Vimeo remembers the changed content.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>View Video</i><hr/><img src="/images/vimeo/vimeo7.jpg" style="max-width:643px;max-height:77px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">6.</b>	After your video has completed its upload process the uploading bar will change to a big green button labelled: "Done! Go to video" - click this to proceed to your video.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Waiting in line...</i><hr/><img src="/images/vimeo/vimeo8.jpg" style="max-width:858px;max-height:329px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">7.</b>	Congratulations, you have uploaded your first video to Vimeo. It is likely that on this page you will be greeted by a message stating that you are "Waiting in line" for the video to be processed. What we need to do now is grab the address to this new video, make sure you have the "Waiting in line" page open and copy (CTRL + C) the internet address at the top of your browser window; it will look something like this: <br/><br/>
+<div style="font-size:18px;text-align:center;"><img src="/images/vimeo/vimeo9.jpg" style="max-width:307px;max-height:48px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">8.</b>	It is a good idea to bookmark this page, save the address in your notes/email or write it down on some paper. <b style="text-decoration:underline">Please do not submit an order with this address until the video has completed the processing stage</b>. Until processing is complete the Publisher will see a blank page, which could cause some confusion.<br/><br/><br/>
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Soundcloud Tutorial</b><a name="Help:Advertiser:Soundcloud" id="Help:Advertiser:Soundcloud"></a>
+<hr/></div>
+<div style="font-size:18px;text-align:center;"><i>Sign Up To Soundcloud</i><hr/><img src="/images/soundcloud/soundcloud1.jpg" style="max-width:213px;max-height:50px;width:100%;height:auto;" /><br/>
+</div><br />
+    <b style="color:black;">1.</b>	The first step to uploading your audio file on to Soundcloud requires you to sign up with the platform at: <a style="text-decoration:underline" href="https://soundcloud.com/upload" target="_blank">https://soundcloud.com/upload</a>
+    <br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Choose File</i><hr/><img src="/images/soundcloud/soundcloud2.jpg" style="max-width:191px;max-height:46px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">2.</b>	Now it is time to upload your sound file, tap the button named "Choose file to upload" and then choose the file you want to upload to Soundcloud. <br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Uploading and Settings</i><hr/><img class="desktop" src="/images/soundcloud/soundcloud3.jpg" style="max-width:819px;max-height:249px;width:100%;height:auto;" /><img class="mobile" src="/images/mobile/soundcloud3m.jpg" style="max-width:320px;max-height:142px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">3.</b>	While your audio file is uploading and processing you can add some additional information to your new Soundcloud upload, such as; a title, tags, a description, an image and metadata. <b>Do not forget</b> to also modify the '<em>Permissions</em>' setting '<em>Enable downloads</em>' - (circled in the above image); this is so that Publishers are able to download your advert for playback. You can turn this option off once your advert has been aired.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Save Changes</i><hr/><img src="/images/soundcloud/soundcloud4.jpg" style="max-width:65px;max-height:39px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">4.</b>	After modifying the audio files listing details click "Save" so that Soundcloud remembers the changed content.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>View Track</i><hr/><img src="/images/soundcloud/soundcloud5.jpg" style="max-width:240px;max-height:37px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">5.</b>	After your audio file has completed the upload process and you have saved any changes, you will now see the "Upload complete" message along with "Go to your track" - click this to proceed to your sound files page.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Copy The Url</i><hr/><img src="/images/soundcloud/soundcloud6.jpg" style="max-width:486px;max-height:33px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">6.</b>	Congratulations, you have uploaded your first sound file to Soundcloud. What we need to do now is grab the address to this new sound clip, make sure you have your tracks page open and copy (CTRL + C) the internet address at the top of your browser window; it will look something like the above image. <br/><br/>
+<br/>
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Imgur Tutorial</b><a name="Help:Advertiser:Imgur" id="Help:Advertiser:Imgur"></a>
+<hr/></div>
+<div style="font-size:18px;text-align:center;"><i>Sign Up To Imgur</i><hr/><img class="desktop" src="/images/imgur/imgur1.jpg" style="max-width:383px;max-height:380px;width:100%;height:auto;" /><img class="mobile" src="/images/mobile/imgur1m.jpg" style="max-width:350px;max-height:347px;width:100%;height:auto;" /><br/>
+</div><br />
+    <b style="color:black;">1.</b>	The first step to uploading your image(s) on to Imgur requires you to sign up with the platform at: <a style="text-decoration:underline" href="https://imgur.com/register" target="_blank">https://imgur.com/register</a>
+    <br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Create An Album</i><hr/><img src="/images/imgur/imgur2.jpg" style="max-width:324px;max-height:208px;width:100%;height:auto;" /></div><br />
+<b style="color:black;">2.</b>	This is an optional step. If you are sharing more than one image with the Publisher it is best to use an album. You can do this by clicking the arrow next to '<em>Add to Album</em>' and by choosing to create a '<em>New Album</em>'. <br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Uploading Your Image(s)</i><hr/><img src="/images/imgur/imgur3.jpg" style="max-width:157px;max-height:54px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">3.</b>	To start the upload process, click on the button named "Computer" and select the image(s) you want to upload.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Sharing Your Image</i><hr/><img src="/images/imgur/imgur4.jpg" style="max-width:189px;max-height:211px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">4.</b>	Once your image has completed the upload process, click on it to open up a new window that displays more details about the file.<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>The Direct Link</i><hr/><img src="/images/imgur/imgur5.jpg" style="max-width:316px;max-height:55px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">5.</b>	On the right hand side of the new window opened in Step 4, there are several options; the one you want to share with the Publisher is: "Direct Link".<br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Sharing An Album</i><hr/><img src="/images/imgur/imgur6.jpg" style="max-width:198px;max-height:291px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">6.</b>	If you are sharing multiple images with the Publisher it is best to do this using an Album. You can see your albums by going to your username in the top right and clicking it. A drop down list will appear with a link to "albums", click here to proceed. <br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Click The Album</i><hr/><img src="/images/imgur/imgur7.jpg" style="max-width:203px;max-height:251px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">7.</b>	Now you are on the albums page, find the album you want and click on it to continue. <br/><br/>
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Share The Url</i><hr/><img src="/images/imgur/imgur8.jpg" style="max-width:281px;max-height:53px;width:100%;height:auto;" /></div><br/>
+<b style="color:black;">8.</b>	The album should now be open in your browser window. You can now copy (CTRL + C) the internet address at the top of your browser window; it will look something like the above image. <br/><br/>
+<br/>
+</div>
+                </div>
+                
+                <div id="helpCAM" style="display:none">
+                	<br/><b style="font-size:22px;padding-left:7px;text-decoration:underline">Campaigns Help</b><i style="text-decoration:none;font-size:18px;"> - (<i style="text-decoration:underline;cursor:pointer;" onclick="printThisHelp(this.parentElement.parentElement.innerHTML)">Print</i>)</i><br/><div style="font-size:16px;"><br/>Topics: <i style="text-decoration:underline"><a href="#Help:Campaigns:Pending">Pending</a></i>, <i style="text-decoration:underline"><a href="#Help:Campaigns:Queued">Queued</a></i>, <i style="text-decoration:underline"><a href="#Help:Campaigns:Live">Live</a></i>, <i style="text-decoration:underline"><a href="#Help:Campaigns:Disputes">Disputes</a></i>, <i style="text-decoration:underline"><a href="#Help:Campaigns:Completed">Completed</a></i>.</div><br/>
+
+<div style="text-align:left;padding-left:3px;">
+
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Pending Campaigns</b>
+<a name="Help:Campaigns:Pending" id="Help:Campaigns:Pending"></a>
+</div><br />
+Pending campaigns can only be progressed to the next stage by Publishers. The Publishers will be able to see all the details of the campaign including the preferred date and time that the Advertiser would like their campaign to air. During the approval process the Publisher can change this date to a more accurate time and date if the preferred date or time provided by the Advertiser is not available. <br /><br />Pending campaigns will also include denied campaigns for Advertisers. If a campaign gets refused by a Publisher, a denied campaign will be sent back to the Advertiser with a reason as to why this occured.<br /><br />
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Advertiser Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with your campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Remove</em>' button can be used if you need to cancel a campaign. When you click '<em>Remove</em>' a new window will appear asking you to state a reason why you are removing the campaign. Please enter the reason and then click '<em>Submit</em>' to complete the cancellation. For campaigns denied by the Publisher the remove button will remove this campaign from your Pending Campaigns page. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/>
+<hr/>
+
+<div style="font-size:18px;text-align:center;"><i>Publisher Interaction</i><hr/></div><br />
+	<b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Approve</em>' button will progress the campaign to the next stage. After you click this button you will be asked to provide a more accurate date and time for when the Advertiser's advert will air. Please be as accurate as possible as the Advertiser will see this date. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Remove</em>' button can be used if you need to cancel a campaign. When you click '<em>Remove</em>' a new window will appear asking you to state a reason why you are removing the campaign. Please enter the reason and then click '<em>Submit</em>' to complete the cancellation. The Advertiser will get to see the reason why their campaign was removed, please advise them on how they can avoid this in the future. <br/><br/>
+    <b style="color:black;">4.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/><br/>
+
+
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Queued Campaigns</b>
+<a name="Help:Campaigns:Queued" id="Help:Campaigns:Queued"></a>
+</div><br />
+Queued campaigns can only be progressed to the next stage by Advertisers. The Advertiser will be able to see all the details of the campaign; including the newly added actual date and time that the Publisher provided for when the campaign will air. The Advertiser can choose to pay for this campaign now and progress it to the next stage, or remove it entirely from Pletho, cancelling the campaign. <br /><br />Campaigns that are not paid for in time will be automatically cancelled. <br /><br />
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Advertiser Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Pay</em>' button will progress the campaign to the next stage. After clicking the '<em>Pay</em>' button Pletho will contact Stripe, our payment platform. You will be asked for a card number, expiry date and the CVC. You also have the option to allow Stripe to remember your card details by providing the system with a mobile phone number. After you have entered the payment details, click the blue '<em>Pay</em>' button provided at the bottom to complete the transaction. Pletho and Stripe communicate safely using secure protocols, your data is extremely important to us and we take security very seriously. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Remove</em>' button can be used if you need to cancel a campaign. When you click '<em>Remove</em>' a new window will appear asking you to state a reason why you are removing the campaign. Please enter the reason and then click 'Submit' to complete the cancellation. <br/><br/>
+    <b style="color:black;">4.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/>
+<hr/>
+
+<div style="font-size:18px;text-align:center;"><i>Publisher Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/><br />
+    
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Live Campaigns</b>
+<a name="Help:Campaigns:Live" id="Help:Campaigns:Live"></a>
+</div><br />
+Live campaigns can be progressed by Advertisers and Publishers and they can either go on to the disputed section or become completed campaigns.<br /><br /> A Publisher only has the option to progress a campaign to a disputed state; a Publisher may do this when problems occur with the date or time an advert will air, entering into a dispute will allow the Publisher to communicate directly with the Advertiser to resolve the situation.<br /><br /> An Advertiser has the option to complete their campaign as well as dispute it. An Advertiser should only complete their campaign once they are happy that their campaign is complete and that their advert aired correctly. If an Advertiser has problems with how the advert aired or if the advert did not air they can then dispute the campaign and try to resolve the problem with Publisher or request a refund.   <br /><br />
+
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Advertiser Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Complete</em>' button should be used when your campaign has been aired successfully. After pressing the button the campaign will be moved to the completed section. Your campaign is now complete, congratulations. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Dispute</em>' button should be used when your campaign aired incorrectly, or if it didn't air at all. Disputing a campaign will allow you to communicate with the Publisher to request a refund or to have the advert rescheduled for another air date. Please give a reason why you are disputing the campaign in the box provided and how you would like the situation to be resolved. Once this is complete, click '<em>Submit</em>' to finalise the dispute submission. <br/><br/>
+    <b style="color:black;">4.</b>	The '<em>Share</em>' button can be used to share details of your campaign with colleagues, friends and family. After clicking the button a new box will appear allowing you to share the campaign details via select social networks or by email. <br/><br/>
+    <b style="color:black;">5.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/>
+<hr/>
+
+<div style="font-size:18px;text-align:center;"><i>Publisher Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Dispute</em>' button should be used when the campaign cannot be aired on time or if there is another problem. Please give a reason why the campaign cannot air on time and when it can be rescheduled for, then click '<em>Submit</em>' to complete the dispute submission. If the advert cannot be aired due to unforeseen circumstances, please refund the Advertiser and mention this in the reason box before submitting. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Share</em>' button can be used to share details of the campaign with colleagues, friends and family. After clicking the button a new box will appear allowing you to share the campaign details via select social networks or by email. <br/><br/>
+    <b style="color:black;">4.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear, inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/><br/>
+    
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Disputed Campaigns</b>
+<a name="Help:Campaigns:Disputes" id="Help:Campaigns:Disputes"></a>
+</div><br/>
+Disputed campaigns can only be progressed to the next stage by Advertisers. While the campaign is being disputed both the Advertiser and Publisher are able to use the comments window to communicate with each other. When the Advertiser is happy with the outcome of a dispute they can then proceed the campaign to its final completed state. A dispute resolution may come in the form of a refund or the advert airing at a different date and time if it missed its original air date. <br/><br/>
+Please note: Pletho support staff can see all disputes and are able to join a dispute conversation when necessary.
+<hr/>
+
+<div style="font-size:18px;text-align:center;"><i>Advertiser Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Comments</em>' button loads the conversation window. In this window you can talk directly to the Publisher. Please communicate with the Publisher about the problems you had with your campaign and how you would like the situation to be resolved. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Close</em>' button will close and complete the campaign. Only use this button when you are happy with the resolution completed by the Publisher. After clicking the '<em>Close</em>' button a new box will appear asking you for the reason why you are closing the dispute and whether you are happy with the solution provided by the Publisher. Once you have entered this information click '<em>Submit</em>' to complete the campaign. <br/><br/>
+    <b style="color:black;">5.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/>
+<hr/>
+
+<div style="font-size:18px;text-align:center;"><i>Publisher Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Comments</em>' button loads the conversation window. In this window you can talk directly to the Advertiser. Please communicate with the Advertiser about the problems they are having with their campaign and how they would like the situation to be resolved. If the Advertiser requires a refund, you can use the Payment ID link provided for the campaign to go directly to the Stripe payment. From here you will be able to offer a refund directly back to the Advertisers payment card. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/><br/>
+    
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Completed Campaigns</b>
+<a name="Help:Campaigns:Completed" id="Help:Campaigns:Completed"></a>
+</div><br/>
+This is the final stage for all campaigns. Once a campaign is in a completed state the Advertiser and Publisher will be able to print details about the campaign, view the original listing of the campaign (if it still exists), share the campaign or request help; if a problem arises after completion.
+<hr/>
+
+<div style="font-size:18px;text-align:center;"><i>Advertiser Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Print</em>' button opens up the details of the campaign in a printer friendly view. From here you can either '<em>Tap to close</em>' the window or '<em>Tap to print</em>'. Clicking on the print button will load your printers dialog box and allow you to send the campaign details as a document for printing. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Listing</em>' button will return you back to the original advert that you purchased. This is a quick way for you to re-order the advert again and start a new campaign. <br/><br/>
+    <b style="color:black;">4.</b>	The '<em>Share</em>' button can be used to share details of your campaign with colleagues, friends and family. After clicking the button a new box will appear allowing you to share the campaign details via select social networks or by email. <br/><br/>
+    <b style="color:black;">5.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/>
+<hr/>
+
+<div style="font-size:18px;text-align:center;"><i>Publisher Interaction</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the campaign, click it to highlight it so that the action buttons become active.
+    <br/><br/>
+    <b style="color:black;">2.</b>	The '<em>Print</em>' button opens up the details of the campaign in a printer friendly view. From here you can either '<em>Tap to close</em>' the window or '<em>Tap to print</em>'. Clicking on the print button will load your printers dialog box and allow you to send the campaign details as a document for printing. <br/><br/>
+    <b style="color:black;">3.</b>	The '<em>Listing</em>' button will return you back to the original advert that was sold. This is a quick way for you to assess the adverts quantity, price and other details; allowing you to update, change or remove the advert from the system. <br/><br/>
+    <b style="color:black;">4.</b>	The '<em>Share</em>' button can be used to share details of your campaign with colleagues, friends and family. After clicking the button a new box will appear allowing you to share the campaign details via select social networks or by email. <br/><br/>
+    <b style="color:black;">5.</b>	The '<em>Help</em>' button can be used to contact Pletho's support team about a specific campaign. After clicking this button a new window will appear. Inside the textbox provided please detail what your problem is and then click '<em>Submit</em>'. A member of Pletho's support team will respond to the email address provided when you signed up. <br/><br/><br/>
+
+
+</div>
+
+</div>
+                
+                <div id="helpPUB" style="display:none">
+                	
+                    
+                    <br/><b style="font-size:22px;padding-left:7px;text-decoration:underline">Publisher Help</b><i style="text-decoration:none;font-size:18px;"> - (<i style="text-decoration:underline;cursor:pointer;" onclick="printThisHelp(this.parentElement.parentElement.innerHTML)">Print</i>)</i><br/><div style="font-size:16px;"><br/>Topics: <i style="text-decoration:underline"><a href="#Help:Publisher:Registering">Registering</a></i>, <i style="text-decoration:underline"><a href="#Help:Publisher:AddingAdverts">Adding Adverts</a></i>, <i style="text-decoration:underline"><a href="#Help:Publisher:ModifyingAdverts">Modifying Adverts</a></i>, <i style="text-decoration:underline"><a href="#Help:Publisher:AiringAdverts">Airing Adverts</a></i>.</div><br/>
+
+<div style="text-align:left;padding-left:3px;">
+
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Registering</b>
+<a name="Help:Publisher:Registering" id="Help:Publisher:Registering"></a>
+</div><br />
+Before you can start publishing your adverts for sale on the Pletho marketplace you will need to register. During the registration process a member of the Pletho Team may contact you via email or telephone as part of the Publisher Approval Process.<br /><br />
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Publisher Approval Process</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To begin the Publisher Approval Process please click the button named '<em>Start</em>'. <br/><br/>
+    <b style="color:black;">2.</b>	You can enter the details required manually or populate them by connecting to your LinkedIn account. Once you have completed the form press the '<em>Submit</em>' button to send the application to Pletho for approval. We aim to reply within 72 hours.<br/><br/>
+    <b style="color:black;">3.</b>	Once you have been approved by Pletho you can now add payment details to your Publisher account. This is where all payment proceeds from advert sales on the Pletho marketplace will be sent. Our payments system is supported by Stripe's Merchant platform; so for this step you will be forwarded to Stripe's merchant registration form. Please submit all the information that Stripe requires for your merchant account to be created and then authorise access for Pletho to use this information.<br/><br/>
+    <b style="color:black;">4.</b>	After you authorise Stripe to share your merchant account information with Pletho you will be sent back to Pletho. Please wait while Pletho adds the details provided by Stripe to our system. Once complete you will be forwarded back to the Publisher page so that you can begin to add your adverts to Pletho's marketplace.<br/><br/>
+<br/>
+
+
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Adding Adverts</b>
+<a name="Help:Publisher:AddingAdverts" id="Help:Publisher:AddingAdverts"></a>
+</div><br />
+Once a Publisher has been approved and shared their Stripe merchant account information with Pletho the '<em>Submit New Advertising Listing</em>' page will become active in the Publisher section. From here you can submit adverts directly to Pletho's marketplace<br /><br />
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Listing Guide</i><hr/></div><br/>
+    <b style="color:black;">1.</b>	The first set of fields and options available for your advert listing are required entries. These include; the '<em>Area</em>' that the advert is being display in, please choose '<em>Local</em>' or '<em>National</em>', a '<em>Price</em>' for the campaign that the Advertiser will pay, the main '<em>City</em>' that the advert is airing in, an '<em>Ad Type</em>' for the campaign, please choose from the list, the '<em>Lead Time</em>' that you require to process the campaign, any '<em>Tags</em>' or keywords that you wish to be associated with your advert, the average '<em>Reach</em>' amount expected for this advert and the '<em>Campaign Length</em>' that this advert will have. <br/><br/>
+    <b style="color:black;">2.</b>	The next part of the listing page is the advert '<em>Description</em>'. This is a required field, please enter as much information as you can about your advert here. <br/><br/>
+    <b style="color:black;">3.</b>	The next section of the advert listing is populated automatically from your Stripe merchant account. This includes; the 'Publisher' name/identity, the '<em>Currency</em>' you receive payments in, the '<em>Country</em>' that the advert is based in and the '<em>Quantity</em>' of stock available for this advert. You can change the '<em>Currency</em>' and '<em>Country</em>' manually. However, please be aware that foriegn currency payments may incur fees and charges levied by your bank or Stripe. To change your advert from having '<em>Unlimited</em>' stock, please untick the option box and enter the amount of stock available in '<em>Quantity</em>' field. <br/><br/>
+    <b style="color:black;">4.</b>	Now you can add a '<em>Logo</em>' for your advert. This can be a logo that relates to the Publisher Company or one that is specific for this advert. Please note; the background colour for your logo will be generated from the pixels at the center of the image. <br/><br/>
+     <b style="color:black;">5.</b>	The last section of the advertising listing page are optional fields. These includes; the '<em>Reach in TSA</em>', the '<em>Average Hours</em>', an '<em>ABC1 Profile</em>', the '<em>Gender Ratio</em>' and the '<em>Age Demographic</em>'. If you are entering data into these fields it is advised that you enter a '<em>Source</em>' for this information in the field provided. <br/><br/>
+     <b style="color:black;">6.</b>	Now that your listing is complete, please click the '<em>Publish</em>' button to continue. <br/><br/>
+     <b style="color:black;">7.</b>	You will see a preview of your advert before it goes live, please double check that all the information visible is correct. This is how your advert will look to Advertisers viewing the Pletho marketplace on a smartphone. It may be necessary to change/tweak certain aspects about your advert to tailor the output for these smaller display devices. Once you are happy with how your advert looks, click the '<em>Confirm</em>' button to finish.<br/><br/>
+     <b style="color:black;">8.</b>	Once the advert has been added to the marketplace, Pletho will automatically forward you to the listing on the Advertiser page. From here you can highlight your advert and '<em>Share</em>' its details with selected social networks or via email. <br/><br/><br />
+    
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Modifying Adverts</b>
+<a name="Help:Publisher:ModifyingAdverts" id="Help:Publisher:ModifyingAdverts"></a>
+</div><br />
+Adverts published onto the Pletho marketplace can still be changed or updated while live. A Publisher can do this by searching for their advert in the '<em>Advertiser</em>' section. The easiest way to do this would be by searching for your Publisher name/identity (you can find this on the '<em>Publisher</em>' page).<br /><br />
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Advert Management</i><hr/></div><br />
+    <b style="color:black;">1.</b>	To interact with the advert, click it to highlight it so that the action buttons become active.<br/><br/>
+    <b style="color:black;">2.</b>	If the advert you highlighted is one that you own, the button named '<em>Modify</em>' will appear. <br/><br/>
+    <b style="color:black;">3.</b>	You also have the option to '<em>Share</em>' this advert to a range of social networks or by email. <br/><br/>
+    <b style="color:black;">4.</b>	Once you click the '<em>Modify</em>' button a new window will appear. In this window you can control the stock '<em>Quantity</em>', the adverts '<em>Price</em>' and the '<em>Lead Time</em>' that you require. <br/><br/>
+    <b style="color:black;">5.</b>	You can also '<em>Delete</em>' the advert from the Pletho marketplace by using the button provided. <br/><br/>
+    <b style="color:black;">6.</b>	Once you have made the modifications required, click the '<em>Update</em>' button to confirm the changes. <br/><br/><br />
+    
+<div style="font-size:20px;text-align:left;text-decoration:underline"><b>Airing Adverts</b>
+<a name="Help:Publisher:AiringAdverts" id="Help:Publisher:AiringAdverts"></a>
+</div><br />
+Advertisers are advised to use Vimeo for video adverts, Soundcloud for audio adverts and Imgur for adverts that are static images. When it is time to air the advert, you will first need to download the advert shared by the Publisher. Below you will find guides on how you would do this for each of Pletho's supported platforms.<br /><br />
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Vimeo Download</i><hr/><img src="/images/pubhelp/vimeo-download.jpg" style="max-width:114px;max-height:41px;width:100%;height:auto;" /></div><br/><b style="color:black;">1.</b>	To download the Advertisers video from Vimeo you must first click the link to the Vimeo video that the Advertiser shared with their campaign. Once you are on this page, locate the button shown above - named '<em>Download</em>'. It will usually be found below the video, click it and then save the file to your computer. <br/><br/><br />
+ <hr/>   
+<div style="font-size:18px;text-align:center;"><i>Soundcloud Download</i><hr/><img src="/images/pubhelp/soundcloud-download.jpg" style="max-width:204px;max-height:90px;width:100%;height:auto;" /></div><br/><b style="color:black;">1.</b>	To download the Advertisers sound file from Soundcloud you must first click the link to the audio file that the Advertiser shared with their campaign. Once you are on this page, locate the button shown above. It will usually be found below the sounds playback view, click it and then save the file to your computer. <br/><br/><br />
+<hr/>
+<div style="font-size:18px;text-align:center;"><i>Imgur Download</i><hr/><img src="/images/pubhelp/imgur-dlone.jpg" style="max-width:235px;max-height:197px;width:100%;height:auto;" /></div><br/><b style="color:black;">1.</b>	To download the Advertisers image from Imgur you must first click the link to the Imgur website that the Advertiser shared with their campaign. Once you are on this page, right-click the image and then click '<em>Save picture as...</em>' and then save the image to your computer. <br/><br/>
+<div style="font-size:18px;text-align:center;"><img src="/images/pubhelp/imgur-dltwo.jpg" style="max-width:313px;max-height:67px;width:100%;height:auto;" /></div>
+<br/><b style="color:black;">2.</b>	To download the Advertisers image album from Imgur you must first click the link to the Imgur album that the Advertiser shared. Once you are on this page, locate the '<em>Download</em>' hyperlink shown above. It will usually be found on the right side, click it and then save the archive file to your computer. Once you extract this archive, all images from the album will be available.<br/><br/><br />
+    
+</div> </div>
+                
+                <div id="helpPAS" style="display:none">
+                	<br/><b>Password</b><br/><br/>
+                    <div id="submitNewPassword" onclick="submitNewPassword()">Change Password</div>
+                </div>
+                
+                <div id="helpEMA" style="display:none">
+                	<br/><b>Email</b><br/><br/>
+                    <input type="text" id="newEmail" placeholder="Enter your new email address here..." />  
+                    <div id="submitNewEmail" onclick="submitNewEmail()">Update Email Address</div>
+                </div>
+                
+                <div id="helpSUB" style="display:none">
+                	<br/><b>Ticket Submission</b><br/><br/>
+                     <textarea cols="50" id="ticketMessage" placeholder="Please enter your support question here..." 
+        rows="4" name="ticket" class="ticketBox"></textarea>          
+                    <div id="submitNewTicket" onclick="submitNewTicket()">Submit Ticket</div>
+                </div>

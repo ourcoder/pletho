@@ -1,0 +1,176 @@
+
+#helpUnder {
+		display:none;
+		width:100%;
+		position:absolute;
+		height:100%;
+		background-color:rgba(0,0,0,0.82);
+		left:0;
+		top:0;
+		cursor:pointer;
+		z-index:1200;
+}
+
+#helpDiv {
+	display:none;
+    top: 72px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+    scrollbar-arrow-color: #000;
+    scrollbar-base-color: #fff;
+    scrollbar-track-color: #fff;
+    scrollbar-face-color: #000;
+    scrollbar-highlight-color: #fff;
+    scrollbar-3dlight-color: #fff;
+    scrollbar-darkshadow-color: #fff;
+    scrollbar-shadow-color: #fff;
+    font-size: 16px;
+    z-index: 5;
+    text-align: center;
+}
+
+	
+#helpMenu {
+    width: 22%;
+    float: right;
+    height: 100%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    overflow: hidden;
+    font-size: 24px;
+    background-color: #424242;
+}
+
+
+.helpMenuLink {
+    background-color: #eee;
+    left:0;right:0;margin:auto;
+    width: 100%;
+    height: 30px;
+    border: 1px rgba(0, 0, 0, 0.25) solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    color: dimGrey;
+    font-size: 20px;
+    cursor: pointer;
+	font-weight:900
+}
+	
+.helpMenuItem {
+	width:100%; text-align:center; min-height:25px; height:auto;cursor:pointer;	
+}
+		
+#helpContent {
+    width: 76%;
+    float: left;
+    height: 100%;
+    overflow: auto;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    text-align: center;
+    scrollbar-arrow-color: #696969;
+    scrollbar-base-color: #f5f7e6;
+    scrollbar-track-color: #f5f7e6;
+    scrollbar-face-color: #696969;
+    scrollbar-highlight-color: #f5f7e6;
+    scrollbar-3dlight-color: #f5f7e6;
+    scrollbar-darkshadow-color: #f5f7e6;
+    scrollbar-shadow-color: #f5f7e6;
+}
+
+
+
+#newEmail{
+		width:81%;
+		height:35px;
+		font-size:24px;
+		line-height:32px;
+	}
+	
+#submitNewEmail{
+    width: 32%;
+	margin-top:6px;
+    float: left;
+    margin-left: 34%;
+    text-align: center;
+    background-color: #ffe588;
+    font-size: 20px;
+    line-height: 38px;
+    height: 40px;
+    overflow: hidden;
+    border: 1px black solid;
+    border-radius: 6px;
+    cursor: pointer;
+	}
+	
+	#submitNewPassword {
+    width: 32%;
+    float: left;
+    margin-left: 34%;
+    text-align: center;
+    background-color: #ffe588;
+    font-size: 20px;
+    line-height: 38px;
+    height: 40px;
+    overflow: hidden;
+    border: 1px black solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+	
+	#submitNewTicket{
+    width: 32%;
+	margin-top:6px;
+    float: left;
+    margin-left: 34%;
+    text-align: center;
+    background-color: #ffe588;
+    font-size: 20px;
+    line-height: 38px;
+    height: 40px;
+    overflow: hidden;
+    border: 1px black solid;
+    border-radius: 6px;
+    cursor: pointer;
+	}
+	
+	.ticketBox{
+	width:90%;
+	height:114px;
+	border:1px black solid;
+	margin-top:5px;
+	background-color:transparent;
+	color:black;
+}
+	
+@media screen and (max-width: 960px) {	
+
+	.helpMenuLink{
+		font-size:11px;
+		font-weight:300;
+		}
+		#newEmail {
+    width: 91%;
+    height: 28px;
+    font-size: 14px;
+    line-height: 24px;
+}
+}
+
+@media screen and (max-width: 730px) {
+#helpMenu {
+    width: 17%;
+}
+#helpContent{
+    width: 81%;
+}
+#helpDiv {
+    top: 52px;
+}
+		
+}

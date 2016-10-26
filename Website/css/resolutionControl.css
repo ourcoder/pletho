@@ -1,0 +1,10 @@
+
+@media screen and (max-width: 310px) {
+	#resolutionControl{
+	}
+}
+
+@media screen and (max-height: 435px) {
+	#resolutionControl{
+	}
+}

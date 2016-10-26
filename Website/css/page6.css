@@ -1,0 +1,56 @@
+
+#disputeComments {
+    scrollbar-arrow-color: #ffe78a;
+    scrollbar-base-color: #424242;
+    scrollbar-track-color: #424242;
+    scrollbar-face-color: #ffe78a;
+    scrollbar-highlight-color: #424242;
+    scrollbar-3dlight-color: #424242;
+    scrollbar-darkshadow-color: #424242;
+    scrollbar-shadow-color: #424242;
+}
+
+
+.disputeMessage1 {
+    float: left;
+    padding: 6px;
+    margin: 2%;
+    background-color: rgba(225,225,225,1);
+    border: 1px dashed rgba(0, 55, 0, 0.14);
+    width: 210px;
+    height: auto;
+    color: black;
+}
+
+
+.dM1u {
+float:left;width:597%;font-size:11px;color:rgba(0,0,0,0.8);font-weight:100;padding-top:2px
+}
+
+.disputeMessage2 {
+    float: right;
+    padding: 6px;
+    margin: 2%;
+    background-color: rgba(25,25,25,1);
+    border: 1px dashed rgba(255, 200, 255, 0.14);
+    width: 210px;
+    height: auto;
+    color: white;
+}
+
+
+.dM2u {
+float:left;width:97%;font-size:11px;color:rgba(255,255,255,.8);font-weight:100;padding-top:2px
+}
+
+.disputeMessage3 {
+float: left; text-align:center; padding: 6px;margin: 2%; background-color: rgba(74,98,110,1); border: 1px dashed rgba(235, 55, 220, 0.14); 
+	width: 210px;
+    width: -webkit-calc(100% - 12px - 4%);
+    width: -moz-calc(100% - 12px - 4%);
+width: calc(100% - 12px - 4%); height: auto; color: #ffffc0;
+}
+
+.dM3u {
+float:left;width:100%;text-align:center;font-size:11px;color:rgba(255,255,192,0.8);font-weight:100;padding-top:2px
+}

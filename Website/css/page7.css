@@ -1,0 +1,167 @@
+#publisherPage1Div{
+	top:72px;bottom:0px;position:absolute;width:80%;overflow:auto;background-color:white;
+	scrollbar-arrow-color: #000;
+	scrollbar-base-color: #fff;
+	scrollbar-track-color: #fff;
+	scrollbar-face-color: #000;
+	scrollbar-highlight-color: #fff;
+	scrollbar-3dlight-color: #fff;
+	scrollbar-darkshadow-color: #fff;
+	scrollbar-shadow-color: #fff;
+	font-size:16px;
+	z-index:5;
+	text-align:center;
+}
+
+#approvalProcessQueue2{
+	
+	
+	}
+
+.pubApp {
+	width:40%;margin-left:5%;float:left;
+    margin-bottom: 10px;
+	}
+	
+.pubApp2 {
+	width:100%;height:15px;float:left;display:block;
+	}
+
+#approvalProcessPublishers{
+	display:none;
+	}
+	
+.fs22{
+	margin-top:6px;
+	font-size:24px;
+	color:black;
+	text-decoration:underline;
+	}
+	
+.fs23{
+	margin-top:12px;
+	font-size:20px;
+	color:#666;
+	}
+		
+.noDis{
+	display:none;	
+	}
+	
+.noDis22{
+	display:none;
+	font-size:22px;	
+	color:#666;
+	margin-top:12px;
+	}
+
+#processingNewMerchant {
+	display:none;text-align:center;z-index:2723;position:absolute;color:white;left:0;top:0;background-color:rgba(0,0,0,0.82);width:100%;height:100%;line-height:70vh;font-size:24px;
+	}
+
+#disputeCommentsBack {
+	display:none;width:100%;height:100%;position:absolute;margin:auto;top:0;bottom:0;left:0;right:0;background-color:rgba(0,0,0,0.78);z-index:1290;
+	}
+
+#disputeCommentsUnder {
+    display: none;
+    width: 270px;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #424242;
+    z-index: 1293;
+    border-left: 10px solid #ffe78a;
+    border-right: 10px solid #ffe78a;
+}
+
+	
+#disputeComments {
+	overflow-y:auto;
+	overflow-x:hidden;
+    display: none;
+    width: 270px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 6px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    background-color: transparent;
+    z-index: 1294;
+}
+
+	
+.bkCom {
+		float:left;cursor:pointer;display:none;	
+		}
+	
+#disputeMessageInput {
+    position: absolute;
+    display: none;
+    bottom: 5px;
+    width: 270px;
+    left: 4px;
+    right: 0px;
+    margin: auto;
+    line-height: 50px;
+    z-index: 1294;
+}
+
+
+#disComVal {
+    width: 196px;
+    height: 32px;
+    font-size: 16px;
+    float: left;
+}
+
+
+.pubImages{
+		width:80%;height:auto;max-width:380px;cursor:pointer;border-radius:25px;
+	}
+	
+#writeDisputeCommentNow {
+    margin-top: 1px;
+    margin-left: 4px;
+    width: 60px;
+    border: 1px blacksolid;
+    height: 36px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #fff48a;
+    float: left;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+	
+.pNM {
+	display:none;text-align:center;z-index:2123;position:absolute;color:white;left:0;top:0;background-color:rgba(0,0,0,0.82);width:100%;height:100%;line-height:70vh;font-size:32px;	
+	}
+
+@media screen and (max-width: 730px) {
+	#publisherPage1Div{
+	top:52px;bottom:70px;position:absolute;width:100%;overflow:auto;background-color:white;font-size:10px;
+		}
+	#approvalProcessPublishers{
+		font-size:14px;
+		}
+	.pubApp {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    float: left;
+	}
+	
+.pubApp2 {
+	width:100%;height:15px;float:left;display:none;
+	}
+	
+}

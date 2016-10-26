@@ -1,0 +1,7 @@
+Authtype Basic
+AuthName "Protected directory"
+AuthUserFile /var/sites/p/pletho.com/.htpasswd
+Require user FallHouseTimer989
+<IfModule mod_dummy.c>
+AuthUserFile \\PDC1\sites\p\pletho.com\.htpasswd
+</IfModule>

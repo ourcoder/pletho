@@ -1,0 +1,147 @@
+#campaignsPage2Div{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,0.86);
+	display:none;
+	color:white;
+	font-size:18px;
+	z-index:888;
+}
+
+.dateTimeBoxes {
+	color:black;background-color:transparent;font-size:14px;border:none;cursor:pointer;
+	}
+
+.campPopup{
+	z-index: 899; display: none; position: absolute; width: 270px; bottom: 0px; left: 0px; top: 0px; right: 0px; margin: auto; height: 205px; opacity: 1; transition: all 0.5s; -webkit-transition: all 0.5s; border: 7px solid rgb(251, 218, 85); border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; background-color: rgb(255, 255, 255); text-align:center;line-height:30px;
+}
+
+.reasonBox{
+	width:90%;
+	height:114px;
+	background-color:transparent;
+	color:black;
+}
+.reasonBox2{
+	width:90%;
+	height:94px;
+	background-color:transparent;
+	color:black;
+}
+.redCampButton {
+    cursor: pointer;
+    width: 38%;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    border: 2px white solid;
+    line-height: 33px;
+    height: 35px;
+    color: white;
+    background-color: darkred;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.greenCampButton {
+	cursor: pointer;
+	width: 100.5%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	text-align: center;
+	line-height: 48px;
+	height: 45px;
+	color: #7e6a35;
+	font-size: 30px;
+	background-color: rgb(251, 218, 85);
+}
+
+#approvalMessageBox{
+	height:170px!important;
+	font-size:16px;
+	color:black;
+}
+
+#completedOrderDetails { 
+display: none;
+text-align: center; 
+z-index: 912; 
+background-color: white; 
+overflow: auto; 
+position: absolute; 
+top: 0px; left: 0px; right: 0px; bottom: 0px; 
+margin: auto; 
+height: 360px; 
+width: 290px; 
+border:5px solid #ffe588;
+}
+
+.cOD1{
+	padding-top:4px;
+	padding-bottom:4px;
+	text-transform:capitalize;
+}
+.cOD2{
+	padding-top:4px;
+	padding-bottom:4px;
+	text-transform:capitalize;
+}
+.cOD3{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.cOD4{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.cOD5{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.cOD6{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.cOD7{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.cOD8{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.cOD9{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.cOD10{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.cOD11{
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-bottom:10px;
+}
+.cOD12{
+	padding-top:14px;
+	font-size:22px;
+	padding-bottom:14px;
+	background-color:darkgreen;
+	color:white;
+	cursor:pointer;
+}
+.cOD13{
+	padding-top:14px;
+	font-size:22px;
+	padding-bottom:14px;
+	background-color:darkred;
+	color:white;
+	margin-bottom:15px;
+	cursor:pointer;
+}

@@ -1,0 +1,3 @@
+<?php
+	$liveState = 'true';
+?>
