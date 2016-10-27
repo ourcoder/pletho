@@ -120,7 +120,7 @@ function openPublisherPage() {
                     document.getElementById("approvalProcessQueue3").style.display = "none"
                     document.getElementById("stripeConnector").style.display = "block"
                     document.getElementById("activatedMerchant").style.display = "none"
-                    document.getElementById("stripe-connect").href = "https://connect.stripe.com/oauth/authorize?response_type=code&amp;scope=read_write&amp;stripe_landing=register&amp;client_id=ca_4ZCXM2jRJ9CJXjTxtDklQxqI5iBN9IyF&amp;stripe_user[email]=" + currentUser.attributes.email + "&amp;stripe_user[first_name]=" + currentUser.attributes.firstName + "&amp;stripe_user[last_name]=" + currentUser.attributes.lastName
+                    document.getElementById("stripe-connect").href = "https://connect.stripe.com/oauth/authorize?response_type=code&amp;scope=read_write&amp;stripe_landing=register&amp;stripe_user[email]=" + currentUser.attributes.email + "&amp;stripe_user[first_name]=" + currentUser.attributes.firstName + "&amp;stripe_user[last_name]=" + currentUser.attributes.lastName
                 }
         //4. load product uploading page
         if (publisherStatus == "authorised") {
