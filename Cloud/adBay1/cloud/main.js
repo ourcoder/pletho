@@ -875,7 +875,7 @@ Parse.Cloud.define("updateUserWithConnectDetails", function (request, response) 
         method: "POST",
         url: "https://connect.stripe.com/oauth/token",
         body: {
-            "client_secret": 'sk_test_4YmYuo5fCQyLco7IbWHsLQJc',
+            "client_secret": '',
             "code": code,
             "grant_type": 'authorization_code'
         },
